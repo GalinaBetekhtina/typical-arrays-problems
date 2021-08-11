@@ -12,19 +12,6 @@ exports.min = function min (array) {
         return min;
     };
 };
-    /*let min = array[0];
-    if (array.length > 0) {
-      for (let i = 1; i < array.length; i++) {  
-          if (array[i] < min) {
-              min = array[i];
-          }  
-      }
-       return min;
-    } else {
-      return 0;
-    } */
-    
-
 
 exports.max = function max (array) {
     if (typeof array === 'undefined' || array.length === 0) {
